@@ -3,6 +3,7 @@
 *.iml
 atlassian-ide-plugin.xml
 config/IntelliJ/codestyles/Default.xml
+workspace.xml
 
 # VS Code
 *.classpath
