@@ -1,0 +1,16 @@
+# IntelliJ
+.idea/
+*.iml
+atlassian-ide-plugin.xml
+config/IntelliJ/codestyles/Default.xml
+
+# VS Code
+*.classpath
+*.project
+*.settings
+
+# etags
+TAGS/
+
+# Maven
+target/
