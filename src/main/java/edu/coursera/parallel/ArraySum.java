@@ -3,8 +3,6 @@ package edu.coursera.parallel;
 import static edu.rice.pcdp.PCDP.async;
 import static edu.rice.pcdp.PCDP.finish;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 /**
  * @author mkarki
  */
@@ -58,7 +56,7 @@ public class ArraySum {
 
 	public static void main(String[] args) {
 		ArraySum arraySum = new ArraySum();
-		int [] a = {1, 2, 3, 5, 6, 7, 8, 9};
+		int [] a = {1, 2, 3, 5, 6, 7, 8, 9, 20, 22, 26, 29, 31, 35, 37, 39, 100};
 		arraySum.seqArraySum(a);
 		arraySum.parallelArraySum(a);
 	}
